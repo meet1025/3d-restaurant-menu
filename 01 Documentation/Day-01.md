@@ -1,9 +1,5 @@
 **# Day 01 - Project Foundation \& Planning**
 
-\*\*Date:\*\* 18 July 2026
-
-
-
 \---
 
 
