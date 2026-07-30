@@ -2,6 +2,7 @@ import './App.css'
 import { Routes, Route, Link } from 'react-router-dom'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Menu from './pages/Menu'
 
 function App() {
 
@@ -16,6 +17,10 @@ function App() {
         <ul>
           <li>
             <Link to="/">Home</Link>
+          </li>
+
+          <li>
+            <Link to="/menu">Menu</Link>
           </li>
 
           <li>
@@ -113,7 +118,7 @@ function App() {
         <p>© 2026 MenuVision 3D. All Rights Reserved.</p>
 
         <div className="footer-links">
-           <Link to="/">
+          <Link to="/">
             Home
           </Link>
 
@@ -142,6 +147,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/menu" element={<Menu />} />
       </Routes>
 
     </>
