@@ -302,3 +302,111 @@ body {
 .footer-links a:hover {
   color: white;
 }
+
+/* =================================
+   ABOUT PAGE
+================================= */
+
+.about-page {
+  min-height: 100vh;
+  padding: 100px 80px;
+  text-align: center;
+}
+
+.about-page h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.about-page > p {
+  max-width: 850px;
+  margin: 0 auto 60px;
+  color: #cbd5e1;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.about-page h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+
+/* CONTACT PAGE */
+
+.contact-page {
+  min-height: 100vh;
+  padding: 100px 80px;
+  text-align: center;
+}
+
+.contact-page h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.contact-page > p {
+  max-width: 700px;
+  margin: 0 auto 50px;
+  color: #cbd5e1;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.contact-page .contact-info {
+  margin-top: 40px;
+}
+
+.contact-page .contact-info p {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+
+/* BACK TO HOME LINK */
+
+.about-page a,
+.contact-page a {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 12px 25px;
+
+  background: #38bdf8;
+  color: white;
+
+  text-decoration: none;
+  border-radius: 8px;
+
+  transition: 0.3s;
+}
+
+.about-page a:hover,
+.contact-page a:hover {
+  transform: scale(1.05);
+}
+
+
+/* ABOUT & CONTACT RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .about-page,
+  .contact-page {
+    padding: 70px 20px;
+  }
+
+  .about-page h1,
+  .contact-page h1 {
+    font-size: 38px;
+  }
+
+  .about-page h2 {
+    font-size: 30px;
+  }
+
+  .about-page > p,
+  .contact-page > p {
+    font-size: 18px;
+  }
+
+}

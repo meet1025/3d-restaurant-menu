@@ -1,26 +1,19 @@
+import { Link } from 'react-router-dom'
+
 function Contact() {
   return (
-    <div className="contact-page">
-
-      <h1>Contact MenuVision 3D</h1>
+    <section className="contact">
+      <h2>Contact MenuVision 3D</h2>
 
       <p>
-        Have questions or want to know more about MenuVision 3D?
-        We'd love to hear from you!
+        Have questions about MenuVision 3D?
+        Feel free to contact us.
       </p>
 
-      <div className="contact-info">
+        <Link to="/">← Back to Home</Link>
 
-        <p>📧 Email: menuvision3d@gmail.com</p>
-
-        <p>📞 Phone: +91 98765 43210</p>
-
-        <p>📍 Ahmedabad, Gujarat, India</p>
-
-      </div>
-
-    </div>
-  )
+    </section>
+  );
 }
 
-export default Contact
+export default Contact;
